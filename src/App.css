@@ -24,6 +24,9 @@
   text-align: right;
   font-size: large;
 }
+.App-intro .counter{
+  color:blue;
+}
 
 .Google-link{
   color:green;

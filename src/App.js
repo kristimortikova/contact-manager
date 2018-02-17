@@ -21,7 +21,7 @@ class App extends Component {
         </header>
         <p className="App-intro" onClick={this.handleClick}>
           To get started, edit <code>src/App.js</code> and save to reload.
-          {this.state.clicked}
+          <span className="counter">{this.state.clicked}</span>
         </p>
         <p className="Google-link">
         This is <strong>link</strong>
