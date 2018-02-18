@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Counter from './Counter';
 import './App.css';
 import Location from './Location';
+import Contacts from './Contacts';
 
 
 
@@ -11,7 +12,8 @@ class App extends Component {
     return (
       <div className="App">
         <Location/>
-        {path==='/counter'?<Counter/>:'hello!'}
+        {path==='/counter'?<Counter/>:null}
+        {path==='/contacts'?<Contacts/>:null}
         <p className="Google-link">
         This is <strong>link</strong>
         &nbsp;to&nbsp;
