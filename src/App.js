@@ -19,6 +19,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome</h1>
         </header>
+        <p className="App-pathname">
+        you are at <i>{global.location.pathname}</i>
+        </p>
         <p className="App-intro" onClick={this.handleClick}>
           To get started, edit <code>src/App.js</code> and save to reload.
           <span className="counter">{this.state.clicked}</span>

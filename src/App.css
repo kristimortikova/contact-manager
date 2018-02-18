@@ -38,6 +38,17 @@
   color:red;
 
  }
+ .Google-link strong:hover{
+  font-size: 48px;
+  color:green;
+
+ }
+ .App-pathname i{
+  color:red;
+ }
+ p{
+  color: grey;
+ }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
