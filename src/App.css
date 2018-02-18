@@ -32,6 +32,16 @@
  p{
   color: grey;
  }
+input[name=name]:focus{
+  color: red;
+ }
+ input[name=email]{
+  color:green;
+ }
+ button#add {
+  border:solid 1px red;
+  background-color:yellow; 
+ }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

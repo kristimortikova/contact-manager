@@ -24,7 +24,7 @@ class ContactForm extends Component{
 		return(<form onChange = {this.handleChange}>
     		<div>Name <input name = 'name' value={this.state.name}/></div>
     		<div>Email<input name = 'email' value={this.state.email}/></div>
-    		<button onClick={this.handleClick}> add </button>
+    		<button id="add" onClick={this.handleClick}> add </button>
     	</form> );
 	}
 }
