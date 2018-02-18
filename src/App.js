@@ -7,10 +7,11 @@ import Location from './Location';
 
 class App extends Component {
   render() {
+    const path = global.location.pathname;
     return (
       <div className="App">
         <Location/>
-        <Counter/>
+        {path==='/counter'?<Counter/>:'hello!'}
         <p className="Google-link">
         This is <strong>link</strong>
         &nbsp;to&nbsp;
